@@ -3,7 +3,8 @@ import Cactus from '../images/cactus2.png'
 const boxStyle = {
     height: '500px',
     width: '100vw', 
-    backgroundColor: 'pink'
+    backgroundColor: 'pink',
+    margin:0
 
 }
 
