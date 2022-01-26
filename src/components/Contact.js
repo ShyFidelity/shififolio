@@ -1,7 +1,13 @@
+const boxStyle = {
+    height: '500px',
+    width: '100vw', 
+    backgroundColor: 'pink'
+
+}
 
 const Contact = () => {
     return (
-        <div>
+        <div style={boxStyle}>
                       {" "}
           <a
             href="tel:3039013230"
@@ -14,3 +20,5 @@ const Contact = () => {
         </div>
     )
 }
+
+export default Contact
