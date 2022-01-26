@@ -3,7 +3,8 @@ import './App.css';
 import About from '../src/components/About'
 import Contact from '../src/components/Contact'
 import Resume from './components/Resume';
-import Work from './components/Work'
+import Work from './components/Work';
+import Cactus from './images/cactus2.png';
 import {
   ScrollingProvider,
   useScrollSection,
@@ -37,6 +38,7 @@ const StaticMenu = () => {
 
 function App() {
   return (
+    <div>
     <ScrollingProvider>
     <StaticMenu />
     <Section id="about"><About/></Section>
@@ -44,6 +46,8 @@ function App() {
     <Section id="work"><Work/></Section>
     <Section id="resume"> <Resume/> </Section>
   </ScrollingProvider>
+  <img src={Cactus} alt="" />
+  </div>
   )
 }
 

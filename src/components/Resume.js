@@ -13,7 +13,7 @@ const Resume = () => {
     return (
         <div style={boxStyle}>
 
-    <h1>Resume</h1>
+    <h1 style={{margin:0}}>Resume</h1>
       
       <a href={Res} download="JKFResume.pdf" > Download </a>
         </div>
