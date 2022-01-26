@@ -1,8 +1,9 @@
 
 import './App.css';
 import About from '../src/components/About'
-import Main from '../src/pages/Main'
 import Contact from '../src/components/Contact'
+import Resume from './components/Resume';
+import Work from './components/Work'
 import {
   ScrollingProvider,
   useScrollSection,
@@ -10,20 +11,24 @@ import {
 } from 'react-scroll-section';
 
 const StaticMenu = () => {
-  const homeSection = useScrollSection('home');
   const aboutSection = useScrollSection('about');
-  const contactSection = useScrollSection('contact')
+  const contactSection = useScrollSection('contact');
+  const resumeSection = useScrollSection('resume')
+  const workSection = useScrollSection('work')
 
   return (
     <ul>
-      <li onClick={homeSection.onClick} selected={homeSection.selected}>
-        Home
-      </li>
       <li onClick={aboutSection.onClick} selected={aboutSection.selected}>
        About
       </li>
-      <li onClick={aboutSection.onClick} selected={aboutSection.selected}>
+      <li onClick={contactSection.onClick} selected={contactSection.selected}>
        Contact
+      </li>
+      <li onClick={workSection.onClick} selected={workSection.selected}>
+       Work
+      </li>
+      <li onClick={resumeSection.onClick} selected={resumeSection.selected}>
+       Resume
       </li>
     </ul>
   );
@@ -34,9 +39,10 @@ function App() {
   return (
     <ScrollingProvider>
     <StaticMenu />
-    <Section id="home"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error aliquam provident inventore ab maiores saepe amet accusamus ut ratione, in molestias sunt quae sequi accusantium tenetur, sit velit tempora voluptatem? </Section>
     <Section id="about"><About/></Section>
     <Section id="contact"> <Contact/> </Section>
+    <Section id="work"><Work/></Section>
+    <Section id="resume"> <Resume/> </Section>
   </ScrollingProvider>
   )
 }
