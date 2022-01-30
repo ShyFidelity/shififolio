@@ -1,5 +1,5 @@
 const boxStyle = {
-    height: '500px',
+    height: '200px',
     width: '100vw', 
     backgroundColor: 'pink',
     margin:0
@@ -18,7 +18,7 @@ const Contact = () => {
             <p  style={{margin:0}}>303-901-3230</p>
           </a>
        
-          <a href="mailto:shyfidelity100@gmail.com">shyfidelity100@gmail.com</a>
+          <a href="mailto:fitzmauricejillian@gmail.com">fitzmauricejillian@gmail.com</a>
         </div>
     )
 }

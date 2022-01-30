@@ -1,0 +1,32 @@
+.page{
+    margin-top: 10vh;
+    margin-right: 10vh;
+    z-index: 2;
+   
+
+
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+ 
+
+}
+
+.card {
+    background-color: transparent !important;
+    color: white !important;
+    padding: 2%;
+    margin: 3vh;
+    border: white solid 2px;
+    border-top-left-radius: 30px !important;
+}
+
+
+.body2 {
+    color: white;
+    
+}

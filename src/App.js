@@ -18,7 +18,7 @@ const StaticMenu = () => {
   const workSection = useScrollSection('work')
 
   return (
-    <ul>
+    <ul className='Nav'>
       <li onClick={aboutSection.onClick} selected={aboutSection.selected}>
        About
       </li>
@@ -38,7 +38,7 @@ const StaticMenu = () => {
 
 function App() {
   return (
-    <div>
+    <div className='App'>
     <ScrollingProvider>
     <StaticMenu />
     <Section id="about"><About/></Section>
