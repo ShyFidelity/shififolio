@@ -3,8 +3,8 @@
 const boxStyle = {
     height: '500px',
     width: '100vw', 
-    backgroundColor: 'pink',
-    margin:0
+    margin:0,
+    backgroundColor: 'green'
 
 }
 

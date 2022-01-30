@@ -46,7 +46,7 @@ function App() {
     <Section id="work"><Work/></Section>
     <Section id="resume"> <Resume/> </Section>
   </ScrollingProvider>
-  <img src={Cactus} alt="" />
+
   </div>
   )
 }

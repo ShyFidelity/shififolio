@@ -3,7 +3,7 @@ import Res from '../images/FitzMauriceJillian_Resume.pdf'
 const boxStyle = {
     height: '500px',
     width: '100vw', 
-    backgroundColor: 'green',
+    backgroundColor: 'black',
     margin:0
 
 }
