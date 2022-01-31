@@ -1,5 +1,5 @@
 const boxStyle = {
-    height: '200px',
+    height: '300px',
     width: '100vw', 
     backgroundColor: 'pink',
     margin:0

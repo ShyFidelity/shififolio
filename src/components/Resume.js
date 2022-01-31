@@ -3,7 +3,6 @@ import Res from '../images/FitzMauriceJillian_Resume.pdf'
 const boxStyle = {
     height: '500px',
     width: '100vw', 
-    backgroundColor: 'black',
     margin:0
 
 }
@@ -11,7 +10,7 @@ const boxStyle = {
 const Resume = () => {
 
     return (
-        <div style={boxStyle}>
+        <div className="resume" style={boxStyle}>
 
     <h1 style={{margin:0}}>Resume</h1>
       

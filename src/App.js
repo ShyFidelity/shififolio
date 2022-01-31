@@ -5,6 +5,8 @@ import Contact from '../src/components/Contact'
 import Resume from './components/Resume';
 import Work from './components/Work';
 import Cactus from './images/cactus2.png';
+import { ParallaxProvider, useRef, useParallax, styles } from 'react-scroll-parallax';
+
 import {
   ScrollingProvider,
   useScrollSection,
@@ -22,12 +24,13 @@ const StaticMenu = () => {
       <li onClick={aboutSection.onClick} selected={aboutSection.selected}>
        About
       </li>
-      <li onClick={contactSection.onClick} selected={contactSection.selected}>
-       Contact
-      </li>
       <li onClick={workSection.onClick} selected={workSection.selected}>
        Work
       </li>
+      <li onClick={contactSection.onClick} selected={contactSection.selected}>
+       Contact
+      </li>
+     
       <li onClick={resumeSection.onClick} selected={resumeSection.selected}>
        Resume
       </li>
@@ -42,8 +45,10 @@ function App() {
     <ScrollingProvider>
     <StaticMenu />
     <Section id="about"><About/></Section>
-    <Section id="contact"> <Contact/> </Section>
+    <ParallaxProvider scrollAxis="horizontal">
     <Section id="work"><Work/></Section>
+    </ParallaxProvider>
+    <Section id="contact"> <Contact/> </Section>
     <Section id="resume"> <Resume/> </Section>
   </ScrollingProvider>
 

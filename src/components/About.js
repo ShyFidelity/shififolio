@@ -4,17 +4,18 @@ const boxStyle = {
     height: '500px',
     width: '100vw', 
     margin:0,
-    backgroundColor: 'yellow'
+   
 
 }
 
 const About = () =>{
     return (
 
-       <div style={boxStyle}>
+       <div className="about" style={boxStyle}>
             <AboutData/>
-           </div> 
-
+       
+        </div>
+      
 
     )
 

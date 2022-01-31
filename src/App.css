@@ -1,21 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+
+@font-face {
+  font-family: 'gallery_modernregular';
+  src: url('../src/styles/gallerymodern-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .App {
   text-align: center;
-  background-color: #000000;
+  background-color: rgb(253, 228, 207);
   margin: 0;
 
 }
 
 .Nav {
+  font-family: 'gallery_modernregular';
   text-decoration: none;
   list-style:none;
-  color: white;
+  color: rgb(0, 187, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  color: rgb(6, 60, 80);
+  font-size: 5rem;
+  margin: 2rem;
+
+
 }
 
+.about {
+  background-color: rgb(255, 207, 210)
+}
+
+.aboutData {
+  background-color: rgb(241, 192, 232)
+  
+}
+
+.work {
+  z-index: 3;
+}
+
+.resume {
+  background-color: rgb(152, 245, 225)
+
+  
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

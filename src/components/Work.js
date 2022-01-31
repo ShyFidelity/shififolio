@@ -1,57 +1,72 @@
-
-
-
-
-import '../styles/portCard.css'
-import Snake from '../images/orog.png'
-import Weather from '../images/weatherSS.png'
-import WorkCard from '../subcomponents/WorkCard'
-
-
-
+import "../styles/portCard.css";
+import Snake from "../images/orog.png";
+import Weather from "../images/weatherSS.png";
+import WorkCard from "../subcomponents/WorkCard";
+import Ivy from "../images/ivygoing.png";
+import Toto from '../images/toto.svg'
 
 const boxStyle = {
-    height: '500px',
-    width: '100vw', 
-    margin:0,
-    backgroundColor: 'green'
-
-}
+  height: "500px",
+  width: "100vw",
+  margin: 0,
+ 
+};
 
 const projects = [
   {
-    title: 'Ouroboros', 
-    img: Snake, 
-    alt: 'snake colorful graphic',
-    description: 'mental health app',
-    link: 'https://ouroboros-ml-jf-ni.herokuapp.com/',
-    github: 'https://github.com/ShyFidelity/Ouroboros',
-    id: 1
-  }, 
+    title: "Ivy Nails",
+    img: Ivy,
+    alt: "screenshot of ivy nails website",
+    description: "First freelance project for local salon",
+    link: "https://shyfidelity.github.io/ivy/",
+    github: "https://github.com/ShyFidelity/ivy",
+    id: 1,
+  },
   {
-    title: 'What\'s the Weather', 
-    img: Weather, 
-    alt: 'screenshot of weather app',
-    description: 'weather app',
-    link: 'https://ouroboros-ml-jf-ni.herokuapp.com/',
-    github: 'https://github.com/ShyFidelity/Ouroboros',
-    id: 2
-  }, 
+    title: "Friends of Toto",
+    img: Toto,
+    alt: "screenshot of ivy toto website",
+    description: "Pet Social media Full MERN stack app",
+    link: "https://shyfidelity.github.io/ivy/",
+    github: "https://github.com/ShyFidelity/ivy",
+    id: 1,
+  },
 
-
-
-
-]
+  {
+    title: "Ouroboros",
+    img: Snake,
+    alt: "snake colorful graphic",
+    description: "mental health app",
+    link: "https://ouroboros-ml-jf-ni.herokuapp.com/",
+    github: "https://github.com/ShyFidelity/Ouroboros",
+    id: 2,
+  },
+  {
+    title: "What's the Weather",
+    img: Weather,
+    alt: "screenshot of weather app",
+    description: "weather app",
+    link: "https://ouroboros-ml-jf-ni.herokuapp.com/",
+    github: "https://github.com/ShyFidelity/Ouroboros",
+    id: 3,
+  },
+];
 
 export default function Work() {
   return (
-    <div>
+    <div className="work">
       <h1>WORK</h1>
       {projects.map((work) => (
-        <WorkCard title={work.title} img={work.img} alt={work.alt} description={work.description} link={work.link} github={work.github}key={work.id} />
+        <WorkCard
+          title={work.title}
+          img={work.img}
+          alt={work.alt}
+          description={work.description}
+          link={work.link}
+          github={work.github}
+          key={work.id}
+        />
       ))}
     </div>
-
   );
 }
-
