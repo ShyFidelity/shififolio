@@ -55,6 +55,20 @@ li {
 
 p {
   font-family: 'Josefin Sans', sans-serif;
+  color: rgb(6, 60, 80);
+
+}
+
+.cardtext {
+  font-family: 'Josefin Sans', sans-serif;
+
+  color: rgb(6, 60, 80);
+
+
+
+}
+.card-img{
+  width: 200px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

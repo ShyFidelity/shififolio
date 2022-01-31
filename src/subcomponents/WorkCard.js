@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import '../styles/portCard.css'
 import ghLogo from '../images/ghlogosm.png'
-
+import '../App.css'
 
 
 
@@ -14,18 +14,20 @@ export default function WorkCard(props) {
 
     return (
         <div>    
-    <Card className="card" sx={{ width: 300 , height: 400}}>
+    <Card className="card" sx={{ width: 300 , height: 450}}>
     <CardMedia
+         style={{  marginTop: '5%'}}
         component="img" 
-        height="280"
+        padding="10px"
+        height="285"
         image={props.img}
         alt={props.alt}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography className="cardtext" gutterBottom variant="h5" component="div">
           {props.title}
         </Typography>
-        <Typography variant="body2">
+        <Typography className="cardtext" variant="body2">
         {props.description}
         </Typography>
       </CardContent>

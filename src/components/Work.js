@@ -5,8 +5,10 @@ import WorkCard from "../subcomponents/WorkCard";
 import Ivy from "../images/ivygoing.png";
 import Toto from '../images/toto.svg'
 
+import HorizontalScroll from 'react-horizontal-scrolling'
+
 const boxStyle = {
-  height: "500px",
+  height: "600px",
   width: "100vw",
   margin: 0,
  
@@ -50,23 +52,40 @@ const projects = [
     github: "https://github.com/ShyFidelity/Ouroboros",
     id: 3,
   },
+
+  {
+    title: "What's the Weather",
+    img: Weather,
+    alt: "screenshot of weather app",
+    description: "weather app",
+    link: "https://ouroboros-ml-jf-ni.herokuapp.com/",
+    github: "https://github.com/ShyFidelity/Ouroboros",
+    id: 4,
+  }
 ];
 
 export default function Work() {
   return (
     <div className="work">
       <h1>WORK</h1>
-      {projects.map((work) => (
+
+<HorizontalScroll>
+      {projects.map((work, idx) => (
         <WorkCard
+        className="rounded w-56 h-64 object-cover"
           title={work.title}
           img={work.img}
           alt={work.alt}
           description={work.description}
           link={work.link}
           github={work.github}
-          key={work.id}
+          key={idx}
         />
       ))}
+      </HorizontalScroll>
     </div>
   );
 }
+
+
+
