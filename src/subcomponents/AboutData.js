@@ -27,7 +27,7 @@ const plxStyles = {
   textAlign: "center",
   padding: 40,
   color: "#fff",
-  position: "fixed",
+  position: "relative",
   width: "100%",
   height:500,
   width:500,
@@ -35,14 +35,14 @@ const plxStyles = {
 };
 
 const wrapperStyles = {
-  position: "absolute",
-  height:300,
+  position: "relative",
+  height:450,
   overflow: "hidden",
   endValue: 500,
   properties: [
     {
       startValue: 0,
-      endValue: -500,
+      endValue: -450,
       property: "translateY",
     },
   ]
@@ -52,7 +52,7 @@ const wrapperStyles = {
 const AboutData = () => {
   return (
     <div  >
-      <div className="aboutData" style={{ height: 500, width: 550}}>
+      <div className="aboutData" style={{ height: 450, width: 550}}>
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
           <p>Front-end developer with a bachelor’s degree in fine art. A recent graduate of Denver University’s Full Stack Web Development program and pursuing AWS Cloud certification. Committed to finding an innovative user experience by challenging the status quo with conceptual and creative thinking. Excels at working with teams with an openness to new solutions and a broad spectrum of voices. A firm believer that morale, empathy, and integrity are necessary for keeping any good team both light and on task.</p>
