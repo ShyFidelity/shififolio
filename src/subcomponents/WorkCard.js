@@ -14,12 +14,12 @@ export default function WorkCard(props) {
 
     return (
         <div>    
-    <Card className="card" sx={{ width: 300 , height: 450}}>
+    <Card className="card" sx={{ width: 300 , height: 350}}>
     <CardMedia
          style={{  marginTop: '5%'}}
         component="img" 
         padding="10px"
-        height="285"
+        height="280"
         image={props.img}
         alt={props.alt}
       />

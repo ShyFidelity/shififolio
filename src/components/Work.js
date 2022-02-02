@@ -3,9 +3,8 @@ import Snake from "../images/orog.png";
 import Weather from "../images/weatherSS.png";
 import WorkCard from "../subcomponents/WorkCard";
 import Ivy from "../images/ivygoing.png";
-import Toto from '../images/toto.svg'
+import Toto from '../images/totosmall.png'
 
-import HorizontalScroll from 'react-horizontal-scrolling'
 
 const boxStyle = {
   height: "600px",
@@ -13,6 +12,11 @@ const boxStyle = {
   margin: 0,
  
 };
+
+const mediastyle = {
+  height: "150px", 
+  width: "150px"
+}
 
 const projects = [
   {
@@ -26,7 +30,7 @@ const projects = [
   },
   {
     title: "Friends of Toto",
-    img: Toto,
+    img: Toto, 
     alt: "screenshot of ivy toto website",
     description: "Pet Social media Full MERN stack app",
     link: "https://shyfidelity.github.io/ivy/",
@@ -53,15 +57,7 @@ const projects = [
     id: 3,
   },
 
-  {
-    title: "What's the Weather",
-    img: Weather,
-    alt: "screenshot of weather app",
-    description: "weather app",
-    link: "https://ouroboros-ml-jf-ni.herokuapp.com/",
-    github: "https://github.com/ShyFidelity/Ouroboros",
-    id: 4,
-  }
+
 ];
 
 export default function Work() {
@@ -69,7 +65,7 @@ export default function Work() {
     <div className="work">
       <h1>WORK</h1>
 
-<HorizontalScroll>
+    <div className="work-data">
       {projects.map((work, idx) => (
         <WorkCard
         className="rounded w-56 h-64 object-cover"
@@ -82,7 +78,7 @@ export default function Work() {
           key={idx}
         />
       ))}
-      </HorizontalScroll>
+      </div>
     </div>
   );
 }

@@ -44,7 +44,17 @@ li {
 }
 
 .work {
+background-color: black;
+}
+
+.work-data {
+
   z-index: 3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .resume {
@@ -67,8 +77,12 @@ p {
 
 
 }
-.card-img{
-  width: 200px;
+
+
+.MuiCardMedia-img {
+  height: 200px;
+  width:auto;
+
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
