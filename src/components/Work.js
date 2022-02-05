@@ -10,6 +10,7 @@ const boxStyle = {
   height: "600px",
   width: "100vw",
   margin: 0,
+  backgroundColor: 'rgb(34, 34, 59)'
  
 };
 

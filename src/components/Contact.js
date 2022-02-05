@@ -1,7 +1,7 @@
 const boxStyle = {
     height: '300px',
     width: '100vw', 
-    backgroundColor: 'pink',
+    backgroundColor: 'rgb(34, 34, 59)', 
     margin:0
 
 }

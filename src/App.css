@@ -11,7 +11,7 @@
 
 .App {
   text-align: center;
-  background-color: rgb(253, 228, 207);
+  background-color:rgb(34, 34, 59);
   margin: 0;
 
 }
@@ -20,32 +20,21 @@
   font-family: 'gallery_modernregular';
   text-decoration: none;
   list-style:none;
-  color: rgb(0, 187, 255);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 li {
-  color: rgb(6, 60, 80);
+  color: rgb(242, 233, 228);
   font-size: 5rem;
   margin: 2rem;
 
 
 }
 
-.about {
-  background-color: rgb(255, 207, 210)
-}
+ 
 
-.aboutData {
-  background-color: rgb(241, 192, 232)
-  
-}
-
-.work {
-background-color: black;
-}
 
 .work-data {
 

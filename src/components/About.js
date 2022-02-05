@@ -4,6 +4,7 @@ const boxStyle = {
     maxHeight: '500px',
     width: '100vw', 
     margin:0,
+    color: '22223B'
    
 
 }
