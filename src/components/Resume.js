@@ -4,7 +4,7 @@ const boxStyle = {
     height: '500px',
     width: '100vw', 
     margin:0, 
-    backgroundColor: 'rgb(34, 34, 59)'
+ 
 
 }
 

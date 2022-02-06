@@ -12,7 +12,7 @@ const boxStyle = {
   width: "100vw",
   paddingTop: "300px", 
   margin: 0,
-  backgroundColor: 'rgb(34, 34, 59)'
+  
  
 };
 

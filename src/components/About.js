@@ -19,7 +19,7 @@ const float = keyframes`
     100% { transform: translateY(-10px)         }
 `
 const Saturn = styled(motion.div)`
-  position: absolute;
+  position: fixed;
   top: 10%;
   right: 5%;
   animation: ${float} 4s ease infinite;
