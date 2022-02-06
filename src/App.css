@@ -17,7 +17,8 @@
 }
 
 .Nav {
-  font-family: 'gallery_modernregular';
+position:fixed;
+width: 100vw;
   text-decoration: none;
   list-style:none;
   display: flex;
@@ -27,7 +28,7 @@
 
 li {
   color: rgb(242, 233, 228);
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 2rem;
 
 
@@ -54,7 +55,9 @@ li {
 
 p {
   font-family: 'Josefin Sans', sans-serif;
-  color: rgb(6, 60, 80);
+  color: rgb(242, 233, 228);
+  font-size: 1.4rem;
+  letter-spacing: 2px;
 
 }
 

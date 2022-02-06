@@ -4,7 +4,7 @@ import About from '../src/components/About'
 import Contact from '../src/components/Contact'
 import Resume from './components/Resume';
 import Work from './components/Work';
-import Cactus from './images/cactus2.png';
+import Howdy from './components/Howdy'
 import { ParallaxProvider, useRef, useParallax, styles } from 'react-scroll-parallax';
 
 import {

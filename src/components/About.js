@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { lazy, Suspense } from 'react'
 import styled, { keyframes, ThemeProvider } from 'styled-components'
 const boxStyle = {
-    maxHeight: '500px',
+    height: '700px',
     width: '100vw', 
     margin:0,
     color: '22223B'
