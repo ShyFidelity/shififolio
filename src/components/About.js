@@ -13,6 +13,11 @@ const boxStyle = {
 
 }
 
+const float = keyframes`
+0% { transform: translateY(-10px)         }
+    50% { transform: translateY(15px) translateX(15px)        }
+    100% { transform: translateY(-10px)         }
+`
 const Saturn = styled(motion.div)`
   position: absolute;
   top: 10%;
@@ -25,17 +30,22 @@ width:20vw;
   }
 `
 
-const float = keyframes`
-0% { transform: translateY(-10px)         }
-    50% { transform: translateY(15px) translateX(15px)        }
-    100% { transform: translateY(-10px)         }
-`
+
 
 const About = () =>{
     return (
 
        <div className="about" style={boxStyle}>
             <AboutData/>
+            <Saturn
+            initial={{ right: '-20%', top: '90%' }}
+            animate={{
+              right: '5%',
+              top: '20%',
+              transition: { duration: 2, delay: 0.5 },
+            }}>
+              <img src={Planet}  alt="Saturn" />
+          </Saturn>
        
         </div>
       
