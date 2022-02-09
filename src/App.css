@@ -38,12 +38,17 @@
 .Nav {
 position:fixed;
 width: 100vw;
+
   text-decoration: none;
   list-style:none;
   display: flex;
   align-items: center;
   justify-content: center;
+
+
 }
+
+
 
 li {
   color: rgb(242, 233, 228);
