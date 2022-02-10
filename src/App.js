@@ -1,5 +1,6 @@
 
 import './App.css';
+import Particles from "react-tsparticles";
 import About from '../src/components/About'
 import Contact from '../src/components/Contact'
 import Resume from './components/Resume';
