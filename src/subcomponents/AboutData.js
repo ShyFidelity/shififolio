@@ -38,7 +38,7 @@ const wrapperStyles = {
   position: "relative",
   height:450,
   width: 550, 
-  marginLeft: 50, 
+  marginLeft: 200, 
   overflow: "hidden",
   endValue: 500,
   properties: [
