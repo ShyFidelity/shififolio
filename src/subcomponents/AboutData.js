@@ -30,13 +30,15 @@ const plxStyles = {
   position: "relative",
   width: "100%",
   height:500,
-  width:500,
+  width:470,
   flexDirection: "column",
 };
 
 const wrapperStyles = {
   position: "relative",
   height:450,
+  width: 550, 
+  marginLeft: 50, 
   overflow: "hidden",
   endValue: 500,
   properties: [
