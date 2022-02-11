@@ -6,7 +6,7 @@ import Contact from '../src/components/Contact'
 import Resume from './components/Resume';
 import Work from './components/Work';
 import Howdy from './components/Howdy'
-import { ParallaxProvider, useRef, useParallax, styles } from 'react-scroll-parallax';
+
 
 import {
   ScrollingProvider,
@@ -47,9 +47,9 @@ function App() {
     <ScrollingProvider>
     <StaticMenu />
     <Section id="about"><About/></Section>
-    <ParallaxProvider scrollAxis="horizontal">
+  
     <Section id="work"><Work/></Section>
-    </ParallaxProvider>
+ 
     <Section id="contact"> <Contact/> </Section>
     <Section id="resume"> <Resume/> </Section>
   </ScrollingProvider>

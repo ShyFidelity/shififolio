@@ -22,7 +22,7 @@ const Contact = () => {
         
           </a>
        
-          <a href="mailto:fitzmauricejillian@gmail.com"> <img style={{height:360}}  src={emailMe} alt="arrow saying email me" /> </a>
+          <a href="mailto:fitzmauricejillian@gmail.com"> <img style={{height:300}}  src={emailMe} alt="arrow saying email me" /> </a>
         </div>
     )
 }
