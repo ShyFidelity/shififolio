@@ -57,7 +57,7 @@ const AboutData = () => {
       <div className="aboutData" style={{ height: 450, width: 550}}>
         <div style={wrapperStyles}>
           <Plx parallaxData={exampleParallaxData} style={plxStyles}>
-          <p>Front-end developer with a bachelor’s degree in fine art. A recent graduate of Denver University’s Full Stack Web Development program and pursuing AWS Cloud certification. Committed to finding an innovative user experience by challenging the status quo with conceptual and creative thinking. Excels at working with teams with an openness to new solutions and a broad spectrum of voices. A firm believer that morale, empathy, and integrity are necessary for keeping any good team both light and on task.</p>
+          <p>Jillian here! A front end developer and true creative at heart.</p>
         
           </Plx>
         </div>

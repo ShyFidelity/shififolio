@@ -11,7 +11,7 @@ const boxStyle = {
 
 const Contact = () => {
     return (
-        <div style={boxStyle}>
+        <div className='contact' style={boxStyle}>
                       {" "}
           <a
            
