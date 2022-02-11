@@ -1,6 +1,5 @@
 import callMe from '../images/callivy.svg'
-
-
+import emailMe from '../images/emailme.svg'
 const boxStyle = {
     height: '300px',
     paddingTop: '300px', 
@@ -23,7 +22,7 @@ const Contact = () => {
         
           </a>
        
-          <a href="mailto:fitzmauricejillian@gmail.com">fitzmauricejillian@gmail.com</a>
+          <a href="mailto:fitzmauricejillian@gmail.com"> <img style={{height:360}}  src={emailMe} alt="arrow saying email me" /> </a>
         </div>
     )
 }

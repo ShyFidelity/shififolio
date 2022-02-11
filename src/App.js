@@ -22,6 +22,7 @@ const StaticMenu = () => {
 
   return (
     <ul className='Nav'>
+      <li style={{fontSize: '1rem'}}> Jillian FitzMaurice </li>
       <li onClick={aboutSection.onClick} selected={aboutSection.selected}>
        About
       </li>
