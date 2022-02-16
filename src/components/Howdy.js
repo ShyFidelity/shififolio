@@ -1,5 +1,5 @@
 import Plx from "react-plx";
-
+import HowdyHat from '../images/howdyhatcss.svg'
 
 const exampleParallaxData = [
   {
