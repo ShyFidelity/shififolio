@@ -46,6 +46,7 @@ function App() {
     <div className='App'>
     <ScrollingProvider>
     <StaticMenu />
+    <Section id="Howdy"><Howdy/></Section>
     <Section id="about"><About/></Section>
   
     <Section id="work"><Work/></Section>

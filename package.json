@@ -6,6 +6,7 @@
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@mui/material": "^5.3.1",
+    "@svgr/webpack": "^6.2.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -51,6 +52,7 @@
     "autoprefixer": "^10.4.2",
     "file-loader": "^6.2.0",
     "postcss": "^8.4.6",
+    "svg-inline-loader": "^0.8.2",
     "tailwindcss": "^3.0.18"
   }
 }
