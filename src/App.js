@@ -5,6 +5,7 @@ import Contact from "../src/components/Contact";
 import Resume from "./components/Resume";
 import Work from "./components/Work";
 import Howdy from "./components/Howdy";
+import Design from "./components/Design"
 
 import {
   ScrollingProvider,
@@ -17,14 +18,18 @@ const StaticMenu = () => {
   const contactSection = useScrollSection("contact");
   const resumeSection = useScrollSection("resume");
   const workSection = useScrollSection("work");
+  const designSection = useScrollSection("design")
 
   return (
     <ul className="Nav">
       <li onClick={aboutSection.onClick} selected={aboutSection.selected}>
         About
       </li>
+      <li onClick={designSection.onClick} selected={designSection.selected}>
+        Design
+      </li>
       <li onClick={workSection.onClick} selected={workSection.selected}>
-        Work
+        Code
       </li>
       <li onClick={contactSection.onClick} selected={contactSection.selected}>
         Contact
@@ -33,6 +38,7 @@ const StaticMenu = () => {
       <li onClick={resumeSection.onClick} selected={resumeSection.selected}>
         Resume
       </li>
+  
     </ul>
   );
 };
@@ -48,6 +54,10 @@ function App() {
         <Section id="about">
           <About />
         </Section>
+        <Section id="design">
+          {" "}
+          <Design />{" "}
+        </Section>
         <Section id="work">
           <Work />
         </Section>
@@ -59,6 +69,7 @@ function App() {
           {" "}
           <Resume />{" "}
         </Section>
+       
       </ScrollingProvider>
     </div>
   );

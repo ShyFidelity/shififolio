@@ -10,7 +10,7 @@ import Github from '../images/github-brands.svg'
 const boxStyle = {
   height: "600px",
   width: "100vw",
-  paddingTop: "300px", 
+  padding: "300px",
   margin: 0,
   
  
@@ -65,7 +65,7 @@ const mediastyle = {
 
 export default function Work() {
   return (
-    <div className={boxStyle}>
+    <div >
 
       <img width="300px"src={Github} alt="github logo" />
       {/* <h1>WORK</h1>

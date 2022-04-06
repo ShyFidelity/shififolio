@@ -50,8 +50,8 @@ const Howdy = () => {
     return (
         <div>
 
-        <div style={wrapperStyles}>
-        <object data={HowdyHat}/>
+        <div margin="20px" style={wrapperStyles}>
+        <object width="500px"  data={HowdyHat}/>
         </div>
         </div>
     )

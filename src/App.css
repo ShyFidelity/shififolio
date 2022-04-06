@@ -7,14 +7,18 @@
   font-style: normal;
 }
 
+* {
+ min-width: 100%;
+}
+
+
 .App {
   text-align: center;
   background: linear-gradient(178deg, #12484e, #612e59, #12084b, #534c7c);
-  background-size: 800% 800%;
-
-  -webkit-animation: AnimationName 12s ease infinite;
-  -moz-animation: AnimationName 12s ease infinite;
-  animation: AnimationName 12s ease infinite;
+  background-size: 700% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
