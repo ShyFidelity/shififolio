@@ -1,12 +1,12 @@
 
 
-  const config = {
+  // const config = {
 
     
-      test: /\.svg$/,
-      loader: 'svg-inline-loader'
+  //     test: /\.svg$/,
+  //     loader: 'svg-inline-loader'
   
-  };
+  // };
 
   
-  module.exports = config;
+  // module.exports = config;

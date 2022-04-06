@@ -1,6 +1,6 @@
 import Plx from "react-plx";
-import HowdyHat from '../images/howdyhatcss.svg'
 
+import HowdyHat from '../images/howdyhat.svg'
 
 const exampleParallaxData = [
   {
@@ -51,7 +51,7 @@ const Howdy = () => {
         <div>
 
         <div style={wrapperStyles}>
-        <object type="image/svg+xml" data={HowdyHat}>svg-animation</object>
+        <object data={HowdyHat}/>
         </div>
         </div>
     )
