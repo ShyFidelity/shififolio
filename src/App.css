@@ -7,9 +7,6 @@
   font-style: normal;
 }
 
-* {
- min-width: 100%;
-}
 
 
 .App {
@@ -61,7 +58,7 @@
   list-style: none;
   display: flex;
   width: 10vh;
-  height: 100vh;
+  height: 33vh;
   transition: 0.5s ease;
   display: flex;
   flex-direction: row;
