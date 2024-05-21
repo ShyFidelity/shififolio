@@ -13,7 +13,6 @@ const boxStyle = {
   padding: "300px",
   margin: 0,
   
- 
 };
 
 const mediastyle = {
