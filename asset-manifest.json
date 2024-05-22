@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/shififolio/static/css/main.d575b18d.css",
+    "main.js": "/shififolio/static/js/main.7f3ed17e.js",
+    "static/js/787.ee83abc9.chunk.js": "/shififolio/static/js/787.ee83abc9.chunk.js",
+    "static/media/orog.png": "/shififolio/static/media/orog.ee0eaaa4216a34f3f8b6.png",
+    "static/media/weatherSS.png": "/shififolio/static/media/weatherSS.06f4630a5ada48bd978d.png",
+    "static/media/saturn.png": "/shififolio/static/media/saturn.bb5df6264b38f39272d6.png",
+    "static/media/callivy.svg": "/shififolio/static/media/callivy.f7292b76cc64e707fa16d1e5e38814cf.svg",
+    "static/media/emailme.svg": "/shififolio/static/media/emailme.e0707ef93f1db62626b8a68fb434d4f2.svg",
+    "static/media/ivygoing.png": "/shififolio/static/media/ivygoing.064690963b9bf3ff6142.png",
+    "static/media/FitzMauriceJillian_Resume.pdf": "/shififolio/static/media/FitzMauriceJillian_Resume.876cdb549e8185153bcd.pdf",
+    "static/media/gallerymodern-webfont.ttf": "/shififolio/static/media/gallerymodern-webfont.68243cee5a09484fd476.ttf",
+    "static/media/totosmall.png": "/shififolio/static/media/totosmall.ac7fd335ef659dfea288.png",
+    "static/media/LVSHAPES.svg": "/shififolio/static/media/LVSHAPES.630a8d5757e0e7f0ea57fa25b5681e78.svg",
+    "static/media/howdyhat.svg": "/shififolio/static/media/howdyhat.07ef67901a95933ed210ab3232eae22d.svg",
+    "static/media/github-brands.svg": "/shififolio/static/media/github-brands.e2f073269da5b56e82387b15c3b59f5a.svg",
+    "index.html": "/shififolio/index.html",
+    "main.d575b18d.css.map": "/shififolio/static/css/main.d575b18d.css.map",
+    "main.7f3ed17e.js.map": "/shififolio/static/js/main.7f3ed17e.js.map",
+    "787.ee83abc9.chunk.js.map": "/shififolio/static/js/787.ee83abc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d575b18d.css",
+    "static/js/main.7f3ed17e.js"
+  ]
+}
